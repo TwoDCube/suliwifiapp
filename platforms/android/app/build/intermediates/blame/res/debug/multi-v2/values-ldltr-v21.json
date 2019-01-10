@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/twodcube/dev/suliwifiapp/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/twodcube/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b2f63a519362e4a6762b5095694a597f/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
