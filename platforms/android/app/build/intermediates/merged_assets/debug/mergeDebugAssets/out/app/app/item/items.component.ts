@@ -20,6 +20,9 @@ export class ItemsComponent implements OnInit {
     constructor(private itemService: ItemService) { }
 
     ngOnInit(): void {
+        fetch("http://suliwifi-2.wificloud.ahrt.hu/login.html?redirect=redirect", {"credentials":"omit","headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-language":"en-US,en;q=0.9,hu-HU;q=0.8,hu;q=0.7,de;q=0.6","cache-control":"max-age=0","content-type":"application/x-www-form-urlencoded","upgrade-insecure-requests":"1"},"referrerPolicy":"no-referrer-when-downgrade","body":"username=KIFU+user&password=110302&err_flag=&buttonClicked=4&err_msg=&info_flag=&info_msg=&redirect_url=http%3A%2F%2Fkifu.gov.hu%2F","method":"POST","mode":"cors"}).then((e) => {
+            this.update = e.status.toString()
+        });
         interval(10000).subscribe(() => {
             fetch("http://suliwifi-2.wificloud.ahrt.hu/login.html?redirect=redirect", {"credentials":"omit","headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-language":"en-US,en;q=0.9,hu-HU;q=0.8,hu;q=0.7,de;q=0.6","cache-control":"max-age=0","content-type":"application/x-www-form-urlencoded","upgrade-insecure-requests":"1"},"referrerPolicy":"no-referrer-when-downgrade","body":"username=KIFU+user&password=110302&err_flag=&buttonClicked=4&err_msg=&info_flag=&info_msg=&redirect_url=http%3A%2F%2Fkifu.gov.hu%2F","method":"POST","mode":"cors"}).then((e) => {
                 this.update = e.status.toString()

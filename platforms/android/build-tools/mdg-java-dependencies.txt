@@ -38,4 +38,3 @@
 /home/twodcube/dev/suliwifiapp/platforms/android/app/build/exploded-dependencies/11/classes.jar
 /home/twodcube/dev/suliwifiapp/platforms/android/app/build/exploded-dependencies/30/classes.jar
 /home/twodcube/dev/suliwifiapp/platforms/android/app/build/exploded-dependencies/24/collections-28.0.0.jar
-/home/twodcube/dev/suliwifiapp/platforms/android/app/build/intermediates/javac/debug
