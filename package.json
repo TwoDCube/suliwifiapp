@@ -10,7 +10,7 @@
     },
     "description": "NativeScript Application",
     "license": "SEE LICENSE IN <your-license-filename>",
-    "repository": "<fill-your-repository-here>",
+    "repository": "https://github.com/TwoDCube/suliwifiapp",
     "dependencies": {
         "@angular/animations": "~7.1.0",
         "@angular/common": "~7.1.0",
